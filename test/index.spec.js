@@ -6,6 +6,12 @@ describe('teste index lib', () => {
   
   describe('função cpfValidator', () => {
 
+    it('418.477.368-07 número é válido', () => {
+
+      expect(index.cpfValidator('418.477.368-07')).to.equal(true);
+
+    });
+    
     it('41847736807 string é válido', () => {
 
       expect(index.cpfValidator('41847736807')).to.equal(true);
@@ -15,12 +21,6 @@ describe('teste index lib', () => {
     it('41847736807 número é válido', () => {
 
       expect(index.cpfValidator(41847736807)).to.equal(true);
-
-    });
-
-    it('418.477.368-07 número é válido', () => {
-
-      expect(index.cpfValidator('418.477.368-07')).to.equal(true);
 
     });
 
