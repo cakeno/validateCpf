@@ -1,9 +1,9 @@
 /* eslint-disable no-undef */
 var chai = require('chai');
 var expect = chai.expect;
-var index = require('../lib/index.js');
+var index = require('index.js');
 
-describe('teste index lib', () => {
+describe('teste index', () => {
   describe('função cpfValidator', () => {
     it('418.477.368-07 número é válido', () => {
       expect(index.cpfValidator('418.477.368-07')).to.equal(true);

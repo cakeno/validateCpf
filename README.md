@@ -1,4 +1,4 @@
-# Conversor de números v.1.0.5
+# Conversor de números v.1.0.6
 
 **Esta biblioteca se destina à validação de números de CPF (Cadastro de Pessoas Físicas)**
 Na versão atual é capaz de validar números de CPF com 11 números, incluindo, ou não, pontos(.) e traços(-).
