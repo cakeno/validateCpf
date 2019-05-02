@@ -38,11 +38,20 @@ module.exports = {
         'spaced-comment': 2,
         'key-spacing': 2,
         'no-multi-spaces': 2,
-        'space-in-parens': 2,
-        'space-before-function-paren': 2,
+        'space-in-parens': [
+            'error',
+            'never'
+        ],
+        'space-before-function-paren': [
+            'error',
+            'never'
+        ],
         'func-call-spacing': 2,
         'no-multiple-empty-lines': 2,
-        'padded-blocks': 2,
+        'padded-blocks': [
+            'error',
+            'never'
+        ],
         'no-floating-decimal': 2,
         'object-property-newline': 2,
         'brace-style': 2,
