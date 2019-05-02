@@ -1,7 +1,7 @@
 {
-  "name": "validatecpf",
-  "version": "1.0.0",
-  "description": "",
+  "name": "validatecpf-cakeno",
+  "version": "1.0.3",
+  "description": "cpf validator",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git+https://github.com/cakeno/validateCpf.git"
   },
-  "author": "",
+  "keywords": [
+    "CPF"
+  ],
+  "author": "Camilla Akemi Noba",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cakeno/validateCpf/issues"
