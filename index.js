@@ -23,4 +23,4 @@ function cpfValidator(string) {
   }
 }
 
-module.exports.cpfValidator = cpfValidator;
+module.exports = cpfValidator;
